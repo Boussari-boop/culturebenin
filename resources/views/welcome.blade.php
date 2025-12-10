@@ -717,13 +717,54 @@
             }
           </script>
 
+                        <div class="swiper-wrapper">
+
+                            <!-- Testimonial Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="200">
 
 
+                                </div>
+                            </div><!-- End Testimonial Slide -->
 
+                            <!-- Testimonial Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="300">
+
+
+                                </div>
+                            </div><!-- End Testimonial Slide -->
+
+                            <!-- Testimonial Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="400">
+
+
+                                </div>
+                            </div><!-- End Testimonial Slide -->
+
+                            <!-- Testimonial Slide 4 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="500">
+
+
+                                </div>
+                            </div><!-- End Testimonial Slide -->
+
+                            <!-- Testimonial Slide 5 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="600">
+
+                                </div>
+                            </div><!-- End Testimonial Slide -->
+
+                        </div>
 
 
 
                     </div>
+
+                </div>
 
             </section><!-- /Testimonials Section -->
 
@@ -757,11 +798,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-3.webp') }}"
+                                        <img src="{{ asset('assets backend/img/person/danse.jpeg') }}"
                                             class="img-fluid" alt="Brand Identity" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-3.webp') }}"
+                                                <a href="{{ asset('assets backend/img/person/danse.webp') }}"
                                                     class="glightbox zoom-link" title="Brand Identity Projet">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -773,8 +814,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Brand Identity</h3>
-                                        <p>Corporate branding and visual identity system</p>
+                                        <h3>Rythmes Béninois</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -782,11 +823,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-7.webp') }}"
+                                        <img src="{{ asset('assets backend/img/person/ryth.jpeg') }}"
                                             class="img-fluid" alt="E-commerce Platform" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-7.webp') }}"
+                                                <a href="{{ asset('assets backend/img/person/ryth.jpeg') }}"
                                                     class="glightbox zoom-link" title="E-commerce Platform">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -798,8 +839,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>E-commerce Platform</h3>
-                                        <p>Modern online shopping experience</p>
+                                        <h3>Danse Traditionnel</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -807,11 +848,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-portrait-5.webp') }}"
+                                        <img src="{{ asset('assets backend/img/portfolio/masques1.jpeg') }}"
                                             class="img-fluid" alt="Magazine Design" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-portrait-5.webp') }}"
+                                                <a href="{{ asset('assets backend/img/portfolio/La tradition2.jpeg') }}"
                                                     class="glightbox zoom-link" title="Magazine Design">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -823,8 +864,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Magazine Design</h3>
-                                        <p>Editorial layout and typography</p>
+                                        <h3>Cérémonie</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -832,11 +873,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-8.webp') }}"
+                                        <img src="{{ asset('public/image/art-et-culture-700x393.png') }}"
                                             class="img-fluid" alt="Motion Graphics" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-8.webp') }}"
+                                                <a href="{{ asset('public/image/art-et-culture-700x393.png') }}"
                                                     class="glightbox zoom-link" title="Motion Graphics">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -848,8 +889,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Motion Graphics</h3>
-                                        <p>Animated visual storytelling</p>
+                                        <h3>Arts&Culture</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -857,11 +898,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-9.webp') }}"
+                                        <img src="{{ asset('assets backend/img/person/Afri.jpeg') }}"
                                             class="img-fluid" alt="Logo Collection" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-9.webp') }}"
+                                                <a href="{{ asset('assets backend/img/person/Afri.jpeg') }}"
                                                     class="glightbox zoom-link" title="Logo Collection">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -873,8 +914,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Logo Collection</h3>
-                                        <p>Diverse brand mark explorations</p>
+                                        <h3>Rythme</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -882,11 +923,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-8.webp') }}"
+                                        <img src="{{ asset('assets backend/img/portfolio/image(2).jpg') }}"
                                             class="img-fluid" alt="Mobile App Design" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-portrait-8.webp') }}"
+                                                <a href="{{ asset('assets backend/img/portfolio/image(2).jpg') }}"
                                                     class="glightbox zoom-link" title="Mobile App Design">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -898,8 +939,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Mobile App Design</h3>
-                                        <p>User-centered interface design</p>
+                                        <h3>Dance</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -907,11 +948,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-10.webp') }}"
+                                        <img src="{{ asset('assets backend/img/portfolio/Fete Vodoun.webp') }}"
                                             class="img-fluid" alt="Packaging Design" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-10.webp') }}"
+                                                <a href="{{ asset('assets backend/img/portfolio/Fete Vodoun.webp') }}"
                                                     class="glightbox zoom-link" title="Packaging Design">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -923,8 +964,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Packaging Design</h3>
-                                        <p>Sustainable product packaging solutions</p>
+                                        <h3>Fete</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -932,11 +973,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/portfolio-11.webp') }}"
+                                        <img src="{{ asset('assets backend/img/person/benin.jpeg') }}"
                                             class="img-fluid" alt="Brand Animation" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/portfolio-11.webp') }}"
+                                                <a href="{{ asset('assets backend/img/person/benin.jpeg') }}"
                                                     class="glightbox zoom-link" title="Brand Animation">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -948,8 +989,8 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h3>Brand Animation</h3>
-                                        <p>Dynamic brand identity systems</p>
+                                        <h3>musée</h3>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
@@ -978,15 +1019,13 @@
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="member-card">
                                 <div class="member-image-wrapper">
-                                    <img src="{{ asset('assets backend/img/portfolio/portfolio-3.webp') }}"
+                                    <img src="{{ asset('assets backend/img/portfolio/vendeuse(2).jpeg') }}"
                                         class="img-fluid" alt="Brand Identity" loading="lazy">
                                 </div>
                                 <div class="member-content">
-                                    <h4 class="member-name">Sarah Chen</h4>
-                                    <span class="member-role">Chief Executive Officer</span>
-                                    <p class="member-bio">Praesentium nihil ut laudantium cumque. Ut et consequatur ab
-                                        ut
-                                        totam architecto. Expedita sunt eum</p>
+                                    <h4 class="member-name">Achat du marche </h4>
+                                    <span class="member-role"></span>
+                                    <p class="member-bio">Nos ingredient parfait</p>
 
                                 </div>
                             </div>
@@ -995,14 +1034,13 @@
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="member-card">
                                 <div class="member-image-wrapper">
-                                    <img src="{{ asset('assets backend/img/person/person-m-2.webp') }}"
+                                    <img src="{{ asset('assets backend/img/portfolio/Mama Africa.jpeg') }}"
                                         class="img-fluid" alt="Team Membre">
                                 </div>
                                 <div class="member-content">
-                                    <h4 class="member-name">David Lee</h4>
-                                    <span class="member-role">Product Manager</span>
-                                    <p class="member-bio">Voluptas qui enim omnis est atque. Enim sunt quo et amet
-                                        corporis et. Autem eaque optio.</p>
+                                    <h4 class="member-name">Nos mama Africa</h4>
+                                    <span class="member-role"></span>
+                                    <p class="member-bio"></p>
 
                                 </div>
                             </div>
@@ -1011,14 +1049,13 @@
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="member-card">
                                 <div class="member-image-wrapper">
-                                    <img src="{{ asset('assets backend/img/person/person-f-3.webp') }}"
+                                    <img src="{{ asset('assets backend/img/portfolio/La tradition2.jpeg') }}"
                                         class="img-fluid" alt="Team Membre">
                                 </div>
                                 <div class="member-content">
-                                    <h4 class="member-name">Laura Rodriguez</h4>
-                                    <span class="member-role">Marketing Director</span>
-                                    <p class="member-bio">Qui ut autem quo error molestiae. Voluptatem quia eligendi
-                                        voluptatibus beatae vitae et quis. Quis voluptatem.</p>
+                                    <h4 class="member-name">Nos tradition</h4>
+                                    <span class="member-role"></span>
+                                    <p class="member-bio"></p>
 
                                 </div>
                             </div>
@@ -1031,10 +1068,9 @@
                                         class="img-fluid" alt="Team Membre">
                                 </div>
                                 <div class="member-content">
-                                    <h4 class="member-name">Michael Brown</h4>
-                                    <span class="member-role">Lead Engineer</span>
-                                    <p class="member-bio">Rerum et sint voluptatem enim aut. Quisquam et alias ut qui
-                                        voluptatum. Autem voluptas exercitationem.</p>
+                                    <h4 class="member-name">Masque Ouidah</h4>
+                                    <span class="member-role"></span>
+                                    <p class="member-bio"></p>
 
                                 </div>
                             </div><!-- End Team Member -->
@@ -1065,7 +1101,7 @@
                         <div class="contact-form-container">
                             <div class="form-intro">
                                 <h2>Let's Start a Conversation</h2>
-                                
+
                             </div>
 
                             <form action="forms/contact.php" method="post" class="php-email-form contact-form">
@@ -1129,7 +1165,7 @@
                         <div class="contact-sidebar">
                             <div class="contact-header">
                                 <h3>Get in Touch</h3>
-                              
+
                             </div>
 
                             <div class="contact-methods">
