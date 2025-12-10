@@ -15,7 +15,7 @@ class UtilisateurSeeder extends Seeder
     {
         $password_hashed = Hash::make('Eneam123');
         Utilisateur::updateOrCreate(
-            ['email' => 'mauricescomlan@gmail.com'], // critère pour vérifier si l'utilisateur existe
+            ['email' => 'maurice.comlan@uac.bj'], // critère pour vérifier si l'utilisateur existe
             [
                 'nom' => 'Comlan',
                 'prenom' => 'maurices',

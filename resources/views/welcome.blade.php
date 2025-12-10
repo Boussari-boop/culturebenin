@@ -605,7 +605,7 @@
                                             class="img-fluid" alt="" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/masque(1).webp') }}"
+                                                <a href="{{ asset('assets backend/img/portfolio/masque(3).webp') }}"
                                                     class="glightbox zoom-link" title="masque">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -626,11 +626,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/masque(1).webp') }}"
+                                        <img src="{{ asset('assets backend/img/portfolio/art(1).webp') }}"
                                             class="img-fluid" alt="Packaging Design" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/masque(1).webp') }}"
+                                                <a href="{{ asset('assets backend/img/portfolio/art(1).webp') }}"
                                                     class="glightbox zoom-link" title="Packaging Design">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -651,11 +651,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets frontend/image/portfolio/artetculture.webp') }}"
+                                        <img src="{{ asset('assets frontend/image/portfolio/benin Monument.webp') }}"
                                             class="img-fluid" alt="Brand Animation" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets frontend/image/portfolio/artetculture.webp') }}"
+                                                <a href="{{ asset('assets frontend/image/portfolio/benin Monument.webp') }}"
                                                     class="glightbox zoom-link" title="Brand Animation">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -844,11 +844,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('assets backend/img/portfolio/masques1.jpeg') }}"
+                                        <img src="{{ asset('assets backend/img/portfolio/masque(1).webp') }}"
                                             class="img-fluid" alt="Magazine Design" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('assets backend/img/portfolio/La tradition2.jpeg') }}"
+                                                <a href="{{ asset('assets backend/img/portfolio/masque(1).webp') }}"
                                                     class="glightbox zoom-link" title="Magazine Design">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -869,11 +869,11 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
                                 <div class="portfolio-card">
                                     <div class="image-container">
-                                        <img src="{{ asset('public/image/art-et-culture-700x393.png') }}"
+                                        <img src="{{ asset('public/image/artetculture.webp') }}"
                                             class="img-fluid" alt="Motion Graphics" loading="lazy">
                                         <div class="overlay">
                                             <div class="overlay-content">
-                                                <a href="{{ asset('public/image/art-et-culture-700x393.png') }}"
+                                                <a href="{{ asset('public/image/artetculture.webp') }}"
                                                     class="glightbox zoom-link" title="Motion Graphics">
                                                     <i class="bi bi-zoom-in"></i>
                                                 </a>
@@ -1060,7 +1060,7 @@
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="member-card">
                                 <div class="member-image-wrapper">
-                                    <img src="{{ asset('assets backend/img/person/person-m-4.webp') }}"
+                                    <img src="{{ asset('assets backend/img/portfolio/masques1.webp') }}"
                                         class="img-fluid" alt="Team Membre">
                                 </div>
                                 <div class="member-content">
