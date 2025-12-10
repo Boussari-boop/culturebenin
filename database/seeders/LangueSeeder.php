@@ -13,8 +13,7 @@ class LangueSeeder extends Seeder
     public function run(): void
     {
         //
-        Langue::create(['nom_langue' => 'Yoruba']);
-        Langue::create(['code_langue' => 'yor']);
+        Langue::updateOrCreate(['nom_langue' => 'Yoruba', 'code_langue' => 'yor']);
     
     }
 }

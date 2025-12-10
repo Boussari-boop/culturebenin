@@ -13,13 +13,13 @@ class RegionSeeder extends Seeder
      */
     public function run(): void
     {
-        Region::create(['nom_region' => 'Zou']);
-        Region::create(['nom_region' => 'Atacora']);
-        Region::create(['nom_region' => 'Couffo']);
-        Region::create(['nom_region' => 'Mono']);
-        Region::create(['nom_region' => 'Ouémé']);
-        Region::create(['nom_region' => 'Plateau']);
-        Region::create(['nom_region' => 'Borgou']);
-        Region::create(['nom_region' => 'Natitingou']);
+        Region::updateOrCreate(['nom_region' => 'Zou']);
+        Region::updateOrCreate(['nom_region' => 'Atacora']);
+        Region::updateOrCreate(['nom_region' => 'Couffo']);
+        Region::updateOrCreate(['nom_region' => 'Mono']);
+        Region::updateOrCreate(['nom_region' => 'Ouémé']);
+        Region::updateOrCreate(['nom_region' => 'Plateau']);
+        Region::updateOrCreate(['nom_region' => 'Borgou']);
+        Region::updateOrCreate(['nom_region' => 'Natitingou']);
     }
 }
