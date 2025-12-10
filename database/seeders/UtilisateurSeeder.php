@@ -14,12 +14,14 @@ class UtilisateurSeeder extends Seeder
     public function run(): void
     {
         $password_hashed = Hash::make('Eneam123');
-        Utilisateur::create([
-            'nom'=>'Comlan',
-            'prenom'=>'maurices',
-            'sexe'=>'Macsulin',
-            'email' => 'mauricescomlan@gmail.com',
-            'password' => $password_hashed
-        ]);
+        Utilisateur::updateOrCreate(
+            ['email' => 'mauricescomlan@gmail.com'], // critère pour vérifier si l'utilisateur existe
+            [
+                'nom' => 'Comlan',
+                'prenom' => 'maurices',
+                'sexe' => 'Masculin', // petite correction "Macsulin" -> "Masculin"
+                'password' => $password_hashed
+            ]
+        );
     }
 }
