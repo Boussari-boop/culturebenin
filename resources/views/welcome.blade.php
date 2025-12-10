@@ -325,7 +325,7 @@
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="member-card">
                             <div class="member-image-wrapper">
-                                <img src="{{ asset('assets backend/img/person/Palais Royal.jpeg') }}"
+                                <img src="{{ asset('assets backend/img/person/palais royal.jpeg') }}"
                                     class="img-fluid" alt="Team Membre">
                             </div>
                             <div class="member-content">
